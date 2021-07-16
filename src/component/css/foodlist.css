@@ -1,0 +1,76 @@
+.foodlist_main_conatiner {
+  height: 100vh;
+  width: 100%;
+ 
+}
+.foodlist_conatiner {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.food_background {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: -25%;
+
+}
+
+#background_bite path {
+  fill: rgba(216, 216, 216, 0.479);
+}
+
+.food_icons {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 45%;
+}
+.food_icons_ice {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+.foodlist_card_cake {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+}
+.food_icons_pi {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 95%;
+  top: 70%;
+}
+
+.foodcard_conatiner {
+width: 100%;
+ height: 100vh;
+ position: absolute;
+ 
+}
+/* FOR SMARTPHONE */
+@media only screen and (max-width: 750px) {
+  #background_bite{
+    padding-top: 105px;
+    width: 100%;
+    height: 100%;
+  }
+  .food_icons,.food_icons_pi{
+   display: none;
+  }
+  .foodlist_main_conatiner {
+    height: 100vh;
+    width: 100%;
+   overflow: hidden;
+  }
+ 
+}
